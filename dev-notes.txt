@@ -4,5 +4,9 @@ https://dev.to/veevidify/docker-compose-up-your-entire-laravel-apache-mysql-deve
 
 docker-compose build && docker-compose up -d && docker-compose logs -f
 
+docker-compose up -d
+docker-compose stop
+
+
 docker exec -it laravel-app bash -c "sudo -u devuser /bin/bash"
 
